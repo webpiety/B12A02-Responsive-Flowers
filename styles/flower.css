@@ -5,6 +5,9 @@
     --font-noto:"Noto Serif", "serif";
     --font-int:"Inter", "sans-serif";
 }
+.bg-image{
+    background-image: url(../assets/deal-bloom.png);
+}
 
 
 

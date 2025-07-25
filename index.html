@@ -12,31 +12,32 @@
 <body class="ml-0 mr-0">
     <header >
         <!-- nav bar -->
-        <nav>
-             <section class="max-w-[1140px] mt-[13px] mb-0 ml-auto mr-auto pl-4 pr-4 flex justify-between items-center font-int">
+        <nav class="max-w-[1140px] m-auto">
+             <section class="pl-0 pr-0 mt-[20px] mb-0 flex justify-between items-center font-int">
              <img  class="w-16 md:w-20 lg:w-[135px] xl:w-[135px]" src="./assets/logo.png" alt="logo">
-             <div class="flex md:gap-10 xl:gap-12">
+             <div class="flex justify-around items-center md:gap-10 xl:gap-12">
                 <ul class="flex invisible md:visible md:gap-10 lg:visible lg:gap-12 xl:visible xl:gap-12 font-[font-int]">
                     <li><a class="text-base font-bold text-[#252432]" href="#">Home</a></li>
                     <li><a class="text-base font-medium text-gray-400" href="#">Shop</a></li>
                     <li><a class="text-base font-medium text-gray-400" href="#">About Us</a></li>
                 </ul>
-                <div>
+                <div class="">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <span class="text-base font-normal text-[#000000]">Cart ($56)</span>
                 </div>
              </div>
+             </section>
              </nav>
              <!-- banner -->
-        </section>
-        <section class="max-w-[1140px] mt-[120px] mb-0 ml-0 mr-0 pl-0 gap-[13px] flex justify-between items-center flex-col-reverse md:flex md:flex-row md:mr-auto md:ml-auto md:gap-0 lg:flex-row lg:mr-auto lg:ml-auto lg:gap-0 xl:flex-row xl:mr-auto md:ml-auto xl:gap-0">
+        
+        <section class="max-w-[1140px] mt-[120px] mb-0 ml-0 mr-0 pl-0 gap-[13px] flex justify-between items-center flex-col-reverse md:flex md:flex-row md:mr-auto md:ml-auto md:gap-0 lg:flex-row lg:mr-auto lg:ml-auto lg:gap-0 xl:flex-row xl:mr-auto xl:ml-auto xl:gap-0">
 
-            <div class="pr-4 pl-4 md:max-w-1/2 md:mt-[162px]  lg:max-w-1/2 lg:mt-[162px]  xl:max-w-1/2 xl:mt-[162px]">
+            <div class="md:max-w-1/2 lg:max-w-1/2 xl:max-w-1/2 md:mt-[170px]lg:mt-[170px] xl:mt-[170px]">
                 <h1 class="font-[font-noto] text-2xl font-bold md:text-6xl lg:text-6xl xl:text-6xl">ALWAYS <span class="text-[#E95A08]">FRESH</span></h1>
                 <h1 class="font-[font-noto] text-2xl font-bold text-[#E95A08] md:text-6xl lg:text-6xl xl:text-6xl">FLOWERS</h1>
-                <p class="font-[font-int] text-[14px] font-normal text-gray-500 md:text-[16px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                <p class="font-[font-int] text-[.87rem] font-normal text-gray-500 md:text-[16px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
-            <div class="md:max-w-1/2 md:mt-[162px] lg:mt-[162px] xl:mt-[162px]">
+            <div class="md:max-w-1/2">
                 <img class="mb-0" src="./assets/hero-flower.png" alt="">
 
             </div>
@@ -119,23 +120,54 @@
         </div>  
     </section>
     <!-- flower plant -->
-    <section class="max-w-[1140px] mr-auto ml-auto md:mt-[150px] lg:mt-[210px] xl:mt-[210px]">
-        <div class="md:flex md:justify-around md:items-center md:gap-[60px] lg:flex lg:justify-around lg:items-center lg:gap-[60px] xl:flex xl:justify-around xl:items-center xl:gap-[60px] lg:relative">
-           <div class="md:max-w-1/2 lg:max-w-1/2 xl:max-w-1/2">
-            <img class="w-[580px] p-0 ml-[17px] mt-[41px]" src="./assets/flower-store.png" alt="flower Store">
+    <section class="max-w-[1140px] mr-auto ml-auto md:mt-[210px] lg:mt-[210px] xl:mt-[210px] ">
+        <div class="md:flex md:justify-between md:items-center md:relative lg:flex lg:justify-between lg:items-center lg:relative xl:flex xl:justify-between xl:items-center xl:relative">
+           <div class="ml-[17px] pr-[18px] md:w-1/2 lg:w-1/2 xl:w-1/2">
+            <img class="mt-[41px]" src="./assets/flower-store.png" alt="flower Store">
             
            </div>
         
-            <div class="ml-[17px] mt-[18px] md:max-w-1/2 lg:max-w-1/2 xl:max-w-1/2">
-                <h2 class="font-[font-noto] text-2xl font-bold text-[rgba(0,0,0,1) md:text-[30px] lg:text-[60px] xl:text-[60px]">Flower & Plants Lover</h2>
-                <ul class="font-[font-int] text-[14px] font-normal text-[rgba(0,0,0,0.5)] mt-4 ml-[17px] md:text-[16px] lg:text-[22px] xl:text-[22px]">
+            <div class="mt-[18px] pl-4 md:pl-0 md:mr-0 md:ml-[60px] md:w-1/2 lg:pl-0 lg:mr-0 lg:ml-[60px] lg:w-1/2 xl:pl-0 xl:mr-0 xl:ml-[60px] xl:w-1/2">
+                <h2 class="font-[font-noto] text-[1.5rem] font-bold text-[rgba(0,0,0,1) md:text-[2.5rem] lg:text-[3rem] xl:text-[3.2rem]">Flower & Plants Lover</h2>
+                <ul class="font-[font-int] text-[0.87rem] font-normal pl-3 pr-3 text-[rgba(0,0,0,0.5)] mt-4 md:text-[0.87rem] lg:text-[1.3rem] xl:text-[1.2rem]">
                     <li class="list-outside list-disc mb-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li class="list-outside list-disc mb-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li class="list-outside list-disc">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 </ul>
             </div>
-            <div>
-                <img class="lg:absolute lg:max-w-[286px] lg:ml-[-885px] lg:mt-[-390px] lg:drop-shadow-[-4px_10px_4px_rgba(0,0,0,.35)]" src="./assets/trusted-badge.png" alt="Trusted Badge">
+            <div class="">
+                <img class="invisible md:visible md:absolute md:w-[286px] md:ml-[-650px] md:mt-[-340px] md:drop-shadow-[-4px_10px_4px_rgba(0,0,0,.35)] lg:visible lg:absolute lg:-w[140px] lg:ml-[-770px] lg:mt-[-360px] lg:drop-shadow-[-4px_10px_4px_rgba(0,0,0,.35)] xl:visible xl:absolute xl:max-w-[286px] xl:ml-[-800px] xl:mt-[-390px] xl:drop-shadow-[-4px_10px_4px_rgba(0,0,0,.35)]" src="./assets/trusted-badge.png" alt="Trusted Badge">
+            </div>
+        </div>
+    </section>
+    <section class="max-w-[1140px] mt-[-220px] ml-auto mr-auto md:mt-[133px] lg:mt-[133px] xl:mt-[133px]">
+        <h3 class="font-[font-noto] text-2xl font-bold text-[#000000] text-center md:text-[3.12rem] lg:text-[3.12rem] xl:text-[3.12rem]"><span class="text-[#E95A08]">Latest</span> Deals</h3>
+        <p class="font-[font-int] text-[.87rem] font-normal text-[rgba(0,0,0,0.50)] text-center mb-[51.5px] mt-4 pl-[28.5px] pr-[28.5px] md:pl-0 md:pr-0 lg:pl-0 lg:pr-0 md:text-[1.37rem] md:mb-[120px] lg:text-[1.37rem] lg:mb-[120px] xl:text-[1.37rem] xl:mb-[120px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. <br> From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <div class="lg:ml-[22px] xl:ml-[22px]">
+            <div class="ml-5.5 mb-5 md:ml-0 md:mb-0 lg:ml-0 lg:mb-0 xl:-0 xl:mb-0 md:flex md:justify-between md:items-center md:gap-[15px] lg:flex lg:justify-between lg:items-center xl:flex xl:justify-between xl:items-center">
+            <div class="md:w-1/3 lg:w-1/3 xl:w-1/3">
+                 <div class="mb-[15.5px] bg-no-repeat bg-gray-500 bg-blend-multiply max-w-[367px] h-[201px] rounded-2xl overflow-hidden " style="background-image: url(./assets/deal-bloom.png);">
+                    
+                    <h2 class="font-[font-noto] text-xl font-bold text-white text-center mt-[60px]">60% Off | Bloom Plant</h2>
+                    <h2 class="font-[font-int] txt-[1rem] font-semibold underline text-white text-center pt-[19px] pb-[19px]">Shop  Now</h2>
+                </div>
+                
+                    <div class=" mb-[15.5px] bg-no-repeat bg-gray-500 bg-blend-multiply max-w-[367px] h-[201px] rounded-2xl overflow-hidden " style="background-image: url(./assets/deal-ana.png);">
+                    
+                    <h2 class="font-[font-noto] text-xl font-bold text-white text-center mt-[60px]">30% Off | Ana Plant</h2>
+                    <h2 class="font-[font-int] txt-[1rem] font-semibold underline text-white text-center pt-[19px] pb-[19px]">Shop  Now</h2>
+                </div>
+            </div>
+               
+         <div class="xl:w-2/3 xl:mt-[-20px] md:w-2/3 md:mt-[-20px] lg:w-2/3 lg:mt-[-20px]">
+            <div class="bg-no-repeat bg-gray-500 bg-blend-multiply max-w-[367px] h-[201px] rounded-2xl overflow-hidden md:max-w-[753px] md:h-[413px] md:mt-0 md:pt-0 lg:max-w-[753px] lg:h-[413px] lg:mt-0 lg:pt-0 xl:max-w-[753px] xl:h-[413px] xl:mt-0 xl:pt-0" style="background-image: url(./assets/deal-zabo.png);">
+                   <div class="">
+                    <h2 class="font-[font-noto] text-xl font-bold text-white text-center mt-[60px] md:text-[2.5rem] md:mt-[172px] md:mb-0 lg:text-[2.5rem] lg:mt-[172px] lg:mb-0 xl:text-[2.5rem] xl:mt-[172px] xl:mb-0">25% Off | Zabo Plant</h2>
+                    <h2 class="font-[font-int] txt-[1rem] font-semibold underline text-white text-center pt-[19px] pb-[19px] md:text-[1.75rem] lg:text-[1.75rem] xl:text-[1.75rem]">Shop  Now</h2>
+                   </div> 
+                    
+                </div>
+            </div>
             </div>
         </div>
     </section>
